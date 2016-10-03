@@ -5,18 +5,38 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Ray Gun- Click to Fire</h1>
+    <p>Hover over the 2 ovals. If they are blue, they are charged. <br> Please allow for a 2-second cooldown time- don't spam it.</be></p>
 <svg width="100%" viewBox="0 0 1000 1000" id="moo">
-  <circle cx="600" cy="200" r="80" fill="lightpink">
+  <rect x="0" y="150" width="650" height="50" fill="white" stroke="red" stroke-width="0">
+    <animate attributeName="stroke-width" from="0" to="30" dur="0.1s" begin="moo.click" id="test1" fill="reset"/>
+    <animate attributeName="width" from="650" to="100%" dur="0.1s" begin="moo.click" id="test1" fill="freeze"/>
+    <animate attributeName="y" from="150" to="155" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+  </rect>
+  </rect>
+  <circle cx="600" cy="200" r="80" fill="#CD5C5C" opacity="0.9">
+    <animate attributeName="cx" from="600" to="595" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+    <animate attributeName="cy" from="200" to="195" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
   </circle>
-  <rect x="20" y="100" width="200" height="300" fill="black" stroke="gray" stroke-width="8">
+  <rect x="20" y="100" width="150" height="350" fill="lightblue" stroke="#CD5C5C" stroke-width="8">
     <animate attributeName="x" from="20" to="0" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
     <animate attributeName="y" from="100" to="105" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
   </rect>
-   <rect x="20" y="100" width="600" height="200" fill="black" stroke="gray" stroke-width="8">
+   <rect x="20" y="100" width="600" height="200" fill="lightblue" stroke="#CD5C5C" stroke-width="8">
      <animate attributeName="x" from="20" to="0" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
      <animate attributeName="y" from="100" to="105" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
    </rect>
-
+  <ellipse cx="595" cy="200" rx="20" ry="200" fill="lightpink">
+  <animate attributeName="cx" from="595" to="590" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+  <animate attributeName="cy" from="200" to="195" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+  <animate attributeName="fill" from="lightpink" to="red" dur="0.1s" begin="moo.click" id="test1" fill="reset"/>
+  </ellipse>
+  <ellipse cx="550" cy="200" rx="20" ry="150" fill="lightpink">
+    <animate attributeName="cx" from="550" to="545" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+    <animate attributeName="cy" from="200" to="195" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+      <animate attributeName="fill" from="lightpink" to="red" dur="0.1s" begin="moo.click" id="test1" fill="reset"/>
+    </ellipse>
+  </ellipse>
 
 </svg>
   </body>
