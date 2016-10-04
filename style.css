@@ -1,11 +1,18 @@
 h1{
-  color: lightblue;
+  color: black;
+  background-color: lightpink;
 }
 ellipse:hover{
-  fill: lightblue;
-  stroke: lightpink;
-  stroke-width: 9;
+fill: lightblue;
+
 }
 p{
-  color: lightblue;
+  color: black;
+  background-color: lightpink;
+}
+h2{
+  color: red;
+}
+html{
+  background-color: white;
 }
