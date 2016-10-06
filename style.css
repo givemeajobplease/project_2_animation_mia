@@ -2,6 +2,8 @@ h1{
   color: black;
   background-color: lightpink;
   font-family: Ruslan Display;
+  font-size: 50;
+  font-weight: bold;
 }
 ellipse:hover{
 fill: lightblue;
@@ -10,9 +12,12 @@ fill: lightblue;
 p{
   color: black;
   background-color: lightpink;
+  font-family: Shadows Into Light;
 }
 h2{
   color: red;
+    font-family: Shadows Into Light;
+    font-size: 40;
 }
 html{
   background-color: white;
