@@ -5,10 +5,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+  <style>
+  @import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+  </style>
     <h1>Ray Gun</h1>
     <p>This is a laser that I created. It is used to ward off stale memes. I created it in the hopes of ridding the world of Doge for good. Hover over the 2 ovals. If they are blue, they are charged. <br> </p>
     <h2>CLICK TO FIRE</h2>
 <svg width="100%" viewBox="0 0 1000 1000" id="moo">
+  <circle cx="375" cy="320" r="50" fill="black" stroke="#CD5C5C" stroke-width="5">
+    <animate attributeName="cx" from="375" to="755" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+    <animate attributeName="cy" from="320" to="325" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+  </circle>
+  <circle cx="375" cy="320" r="20" fill="white" stroke="#CD5C5C" stroke-width="5">
+    <animate attributeName="cx" from="375" to="755" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+    <animate attributeName="cy" from="320" to="325" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
+  </circle>
   <rect x="220" y="150" width="650" height="50" fill="white" stroke="red" stroke-width="0">
     <animate attributeName="stroke-width" from="0" to="30" dur="0.1s" begin="moo.click" id="test1" fill="reset"/>
     <animate attributeName="width" from="650" to="100%" dur="0.1s" begin="moo.click" id="test1" fill="freeze"/>
@@ -18,7 +29,7 @@
     <animate attributeName="x" from="720" to="700" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
     <animate attributeName="y" from="120" to="125" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
   </rect>
-  <rect x="220" y="100" width="150" height="350" fill="black" stroke="#CD5C5C" stroke-width="8">
+  <rect x="220" y="100" width="140" height="350" fill="black" stroke="#CD5C5C" stroke-width="8">
     <animate attributeName="x" from="220" to="200" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
     <animate attributeName="y" from="100" to="105" dur="0.01s" begin="moo.click" id="test1" fill="freeze"/>
   </rect>
